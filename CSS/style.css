@@ -1,0 +1,143 @@
+* {
+	font-family:sans-serif;
+	padding:0;
+	margin:0;
+	font-size:100%;
+}
+	
+h1,h2,h3,h4,h5,h6 {padding:24px 0 0 40px;font-family: 'Merriweather', serif;font-weight:900;}
+
+h1, article + footer h2 {
+	font-size: 3em;
+	line-height:55px;
+	padding:30px 3.36%;
+}
+
+h2 {
+	font-size: 2em;
+	line-height:39px;
+}
+		
+p { 
+	padding: 0 6.72% 0 3.36%;
+	font-size:1em;
+	line-height:20px;
+	font-family:'Kreon',serif;
+	font-weight:300;
+}
+
+sup {
+	font-size: 80%;
+	line-height: 80%;
+}
+
+a {
+	text-decoration:none;
+}
+
+h1 sup, a {
+	color:red;
+}
+		
+sup a {
+	padding-left:2px;
+}
+
+article p { 
+	padding:16px 0 0 10.08%;
+}	
+	
+a:visited, sup:visited {
+	color:#C00;
+}
+		
+a:hover, sup:hover {color:#F66;}
+		
+body > header h1, article + footer h2 {
+	background:black;
+	color:white;
+/* 	letter-spacing:-0.04em; */
+}
+
+article > header h2 {
+	padding:20px 3.36% 40px;
+}
+
+		
+article > footer {
+	clear:both;
+}
+		
+ul {
+	padding: 10px 10.08% 10px 13.44%;
+}
+				
+li[id^="fn:"] {
+	padding:10px 6.72% 10px 0;
+	margin-left:30px;
+	clear:both;
+}
+		
+article footer > h2 {
+	background:black;
+	color:white;
+	margin-top:10px;
+}		
+
+li[id^="fn:"] p {
+	margin:0;
+	color:black;
+	padding:0;
+}
+		
+.reversefootnote {
+	float:right;
+}
+
+body > footer {
+	clear:both;
+}
+
+/*Stomped styles*/
+@media screen and (min-width:700px) {
+
+	.stomped article > footer {
+ 		width:38.2%;
+		float:right;
+	}
+	
+	.stomped li[id^="fn:"] {
+		position:absolute;
+		border-left: 3px solid red;
+		color:black;
+		padding:0 40px 0 20px;
+		list-style-position: inside;
+	}
+	
+	.stomped li[id^="fn:"] p {
+		display:inline;
+	}
+	.stomped section {
+		width:61.8%;
+		float:left;
+	}
+	
+	.stomped li[id="fn:0"], .stomped li[id="fn:7"] {
+		color:red;
+		border-left:3px solid white;
+	}
+	
+	.stomped li[id="fn:0"] {
+		font-size:1.5em;
+		line-height: 40px;
+	}
+		
+	.stomped li[id="fn:0"] p, .stomped li[id="fn:7"] p { color:white; }
+	
+	.stomped article footer > h2 { display:none; }
+	
+	.stomped article + footer { padding:20px 0 0 0; }
+	
+	.stomped .reversefootnote { display:none; }
+	
+}

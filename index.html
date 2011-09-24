@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" />
+	<title>StompNotes&sup1;</title>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:900' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" href="CSS/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+	<script type=text/javascript src="JS/script.js"></script>
+</head>
+<body>
+	<header>
+			<h1>StompNotes<sup><a href="#fn:0" id="fnref:0" title="see footnote" class="footnote">1</a></sup></h1>
+	</header>
+	<article>
+		<section>
+			<h2>We&#8217;ve all been in this situation:</h2>
+
+			<p>You&#8217;re reading a paragraph of text, minding your own business, when along comes a little super-imposed number<sup><a href="#fn:1" id="fnref:1" title="see footnote" class="footnote">2</a></sup> directing you to <em>stop</em> what you&#8217;re doing and reference a note somewhere else. If you stop to look up the note, however, your focus will suffer. You can try to ignore it and tell yourself that you'll check or just keep on reading so as not to interrupt your flow, but in the back of your mind, you can&#8217;t help but wonder what kind of occult knowledge that little footnote professes to hold the answers to.</p>
+
+			<h2>Footnotes shouldn&#8217;t require that kind of mental effort.</h2>
+
+			<p>If they did, they wouldn&#8217;t be footnotes, they&#8217;d just be notes. Am I right, or am I right<sup><a href="#fn:2" id="fnref:2" title="see footnote" class="footnote">3</a></sup>? It&#8217;s either worth knowing, or it isn&#8217;t. The problem, though, is that you can&#8217;t really <em>know</em> whether or not something is worth knowing until <em>after</em> you already know it<sup><a href="#fn:3" id="fnref:3" title="see footnote" class="footnote">4</a></sup>, so why make the reader work any harder than necessary to learn it in the first place?</p>
+
+			<h2>Information wants to be free!!</h2>
+
+			<p>So stop obfuscating it. StompNotes is meant to provide a means to make footnotes more easily accessible by placing them <em>alongside</em> their referrer, rather than in an entirely different section of the page, all without sacrificing your beautiful markup<sup><a href="#fn:4" id="fnref:4" title="see footnote" class="footnote">5</a></sup>. For pages that are too narrow to accommodate the footnotes on the side, StompNotes responds accordingly(actually, in such cases, it doesn't really do much of anything). StompNotes also degrades gracefully for search engines, screen readers and other scenarios where CSS and JavaScript capabilities are not appropriate.</p>
+
+			<h2>How it works.</h2>
+
+			<p>Pretty well<sup><a href="#fn:6" id="fnref:6" title="see footnote" class="footnote">6</a></sup>, thanks for asking.</p>
+			<p>Ha ha! Seriously, though — it's pretty simple. StompNotes is more of a combination of a couple of ideas than any real technological advancement. All it does is apply a class of <code>stomped</code> to your body tag and absolutely positions your footnotes so that they line up with their referrers(unless two notes would overlap, in which case they will follow one after another)</p>
+			<p>Most of the fun stuff is nothing more than some basic CSS applied to your footnotes when the <code>stomped</code> class is present and the browser matches a set of media query conditions to make sure the footnotes can actually fit.</p>
+
+			<h2>On the agenda</h2>
+
+			<p>We&#8217;re still in the early stages here. StompNotes is just barely past a proof-of-concept at this point.</p>
+
+			<ul>
+				<li>Probably support for a simpler footnote format than the one used in Markdown</li>
+				<li>Support for loading footnotes from a separate page, for longer documents that keep an index of footnotes in their own section</li>
+				<li>Distribute by some means other than this.</li>
+				<li>Keep footnotes from back-to-back referrers from overlapping one another</li>
+				<li>Maybe more<sup><a href="#fn:7" id="fnref:7" title="see footnote" class="footnote">7</a></sup></li>
+			</ul>
+		</section>
+		<footer>
+			<h2>Footnotes</h2>
+			<ol>
+				<li id="fn:0">
+					<p>A better way to display footnotes on the web</p> <a href="#fnref:0" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+				</li>
+				
+				<li id="fn:1">
+				<p>Like this jerk right here.</p> <a href="#fnref:1" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+				</li>
+
+				<li id="fn:2">
+				<p>Hint: it doesn&#8217;t matter which one you choose!.</p> 
+				</li>
+
+				<li id="fn:3">
+				<p>Kind of a Catch&#8211;22, isn&#8217;t it?</p> <a href="#fnref:3" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+				</li>
+
+				<li id="fn:4">
+				<p>Right now, it only supports the footnote format proposed by John Gruber which is implemented in many Markdown processors.</p> <a href="#fnref:4" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+				</li>
+
+				<li id="fn:5">
+				<p>Actually, it could definitely stand to work better. It&#8217;s a work-in-progress.</p> <a href="#fnref:5" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+				</li>
+
+				<li id="fn:6">
+				<p>Maybe less? There might be no real demand for this mind of thing.</p> <a href="#fnref:6" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+				</li>
+				
+				<li id="fn:7">
+				<p>Seriously, I appreciate you taking the time to check out this little project. I hope you can find some kind of use for it.</p> <a href="#fnref:7" title="return to article" class="reversefootnote">&#160;&#8617;</a>
+				</li>	
+			</ol>
+		<footer>
+	</article>
+	<footer>
+		<h2>Thanks<sup><a href="#fn:8" id="fnref:8" title="see footnote" class="footnote">8</a></sup></li></h2>
+	</footer>
+</body>
+</html>
