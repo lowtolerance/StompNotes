@@ -1,3 +1,5 @@
+#StompNotes[^1]
+
 ##We've all been in this situation:
 
 You're reading a paragraph of text, minding your own business, when along comes a little super-imposed number[^1] directing you to either <em>stop</em> what you're doing and reference a note in the back of the book(or if you're lucky, at the end of the page) or just keep on reading so as not to interrupt your flow, even though in the back of your mind, you can't help but wonder what kind of occult knowledge that little footnotes professes to hold the answers to. 
